@@ -18,13 +18,7 @@ const ImagePreview = () => {
         setState({ file: fileArray })
     }
 
-    const uploadFiles=(e)=> {
-        e.preventDefault();
-        console.log(state.file.length);
-
-
-        
-    }
+   
     const handleRemove=(e)=>{
         
         e.target.parentElement.previousSibling.style.display="none";
@@ -52,7 +46,7 @@ const ImagePreview = () => {
                         <button className="upload-btn"> <FontAwesomeIcon icon={faCloudUploadAlt} className="cloudIcon" /> Upload image</button>
                         <input className="form-control" onChange={uploadMultipleFiles} multiple  id="serviceImage" type="file"/>
                    </div>
-                <button type="button" style={{backgroundColor:"#507786",color:"white"}} className="btn btn-block" onClick={uploadFiles}>Upload</button>
+             
                 </div>  
             </form >
         </div>
