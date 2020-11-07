@@ -1,0 +1,20 @@
+.footer{
+    background-color:#507786 ;
+    height: 840px;
+    margin-top: 15%;
+    color: white;
+}
+.footerBtn{
+    background-color: #111430;
+    color: white;
+}
+#textarea{
+    height: 300px;
+}
+.footerYear{
+    margin-top: 10%;
+}
+.footerBtn:hover{
+    background-color: #1a2053;
+    color: #82CFFD;
+}

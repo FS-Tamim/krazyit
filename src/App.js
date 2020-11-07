@@ -10,10 +10,12 @@ import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import ImagePreview from './components/ImagePreview/ImagePreview';
 import TshirtPage from './components/TshirtPage/TshirtPage';
+import Navbar from './components/Home/Navbar/Navbar';
 
 function App() {
   return (
    <Router>
+     <Navbar></Navbar>
      <Switch>
        <Route path='/home'>
          <Home></Home>
